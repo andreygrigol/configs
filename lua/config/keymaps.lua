@@ -14,12 +14,16 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
-keymap("n", "<C-n>", ":Lex 30<cr>", opts)
-
 -- Navigate Buffers
 keymap("n", "S-l", ":bnext<CR>", opts)
 keymap("n", "S-h", ":bprevioust<CR>", opts)
 
+--Split Windows
+keymap("n", "<leader>sv", ":vsplit<Return>", opts)
+keymap("n", "<leader>vv", ":split<Return>", opts)
+
+-- Close Buffers
+keymap("n", "<leader>x", ":bd<Return>", opts)
 -- Visual --
 
 --Indent block
@@ -30,3 +34,4 @@ keymap("v", ">", ">gv", opts)
 keymap("v", "<A-j>", ":m .+1<CR>==", opts)
 keymap("v", "<A-k", ":m .-2<CR>==", opts)
 keymap("v", "p", '"_dP"', opts)
+
