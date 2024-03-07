@@ -1,0 +1,54 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Soft",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "JetBrainsMono Nerd Font, 'Courier New', monospace",
+    "settingsSync.ignoredSettings": [
+
+    ],
+    
+    "vim.leader": "<space>",
+    "vim.easymotion": true,
+
+    "vim.normalModeKeyBindings": [   
+        {
+            "before": ["<Ctrl+b>"],
+            "commands": ["workbench.view.explorer"]
+        },
+        {
+            "before": ["<Ctrl+p>"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+        {
+            "before": ["<leader>", "t", "h"],
+            "commands": ["workbench.action.selectTheme"]
+        },
+        {
+            "before": ["<leader>", "f", "r"],
+            "commands": ["editor.action.goToReferences"]
+        },
+        {
+            "before": ["<leader>", "f", "v"],
+            "commands": ["actions.find"]
+        },
+        {
+            "before": ["<leader>", "c"],
+            "commands": ["workbench.action.nextEditor"] 
+        },
+        {
+            "before": ["<leader>", "z"],
+            "commands": ["workbench.action.previousEditor"] 
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["<Ctrl+a>"],
+            "commands": ["editor.action.selectAll"]
+        }
+    ],
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "breadcrumbs.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+}
