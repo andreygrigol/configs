@@ -1,6 +1,5 @@
 {
     "workbench.colorTheme": "Gruvbox Dark Soft",
-    "workbench.iconTheme": "vscode-icons",
     "editor.fontFamily": "JetBrainsMono Nerd Font, 'Courier New', monospace",
     "settingsSync.ignoredSettings": [
 
@@ -37,7 +36,54 @@
         {
             "before": ["<leader>", "z"],
             "commands": ["workbench.action.previousEditor"] 
-        }
+        },
+        {
+            "before": ["<leader>", "r", "n"],
+            "commands": ["editor.action.rename"]
+        },
+        {
+            "before": ["g", "D"],
+            "commands": ["editor.action.revealDeclaration"]
+        },
+        {
+            "before": ["g", "d"],
+            "commands": ["editor.action.goToReferences"]
+        },
+        {
+            "before": ["<leader>", "f", "n"],
+            "commands": ["welcome.showNewFileEntries"]
+        },
+        {
+            "before": ["<leader>", "o", "t"],
+            "commands": ["workbench.action.terminal.openNativeConsole"]
+        },
+        {
+            "before": ["<leader>", "f", "f"],
+            "commands": ["workbench.action.findInFiles"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "commands": ["workbench.view.explorer"] 
+        },
+        {
+            "before": ["<leader>", "h", "a"],
+            "commands": ["workbench.action.activityBarLocation.hide"]
+        },
+        {
+            "before": ["<leader>", "x"],
+            "commands": ["workbench.action.closeActiveEditor"]
+        },
+        {
+            "before": ["<leader>", "c", "f"],
+            "commands": [
+                {
+                    "command": "editor.action.formatDocument",
+                    "args": {
+                        "extension": "autopep8"
+                    }
+                }
+            ]
+        },
     ],
     "vim.visualModeKeyBindings": [
         {
@@ -49,6 +95,10 @@
     "window.menuBarVisibility": "compact",
     "breadcrumbs.enabled": false,
     "editor.renderControlCharacters": false,
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.fontLigatures": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.activityBar.location": "hidden",
+    "window.zoomLevel": 1,
+    "workbench.layoutControl.enabled": false,
 }
