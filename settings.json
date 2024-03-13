@@ -1,6 +1,5 @@
 {
     "workbench.colorTheme": "Gruvbox Dark Soft",
-    "editor.fontFamily": "JetBrainsMono Nerd Font, 'Courier New', monospace",
     "settingsSync.ignoredSettings": [
 
     ],
@@ -18,12 +17,24 @@
             "commands": ["workbench.action.quickOpen"]
         },
         {
-            "before": ["<leader>", "t", "h"],
-            "commands": ["workbench.action.selectTheme"]
+            "before": ["<Ctrl+h>"],
+            "after": ["<Ctrl+w>", "h"]
         },
         {
-            "before": ["<leader>", "f", "r"],
-            "commands": ["editor.action.goToReferences"]
+            "before": ["<Ctrl+j>"],
+            "after": ["<Ctrl+w>", "j"]
+        },
+        {
+            "before": ["<Ctrl+k>"],
+            "after": ["<Ctrl+w>", "k"]
+        },
+        {
+            "before": ["<Ctrl+l>"],
+            "after": ["<Ctrl+w>", "l"]
+        },
+        {
+            "before": ["<leader>", "t", "h"],
+            "commands": ["workbench.action.selectTheme"]
         },
         {
             "before": ["<leader>", "f", "v"],
@@ -58,12 +69,12 @@
             "commands": ["workbench.action.terminal.openNativeConsole"]
         },
         {
-            "before": ["<leader>", "f", "f"],
-            "commands": ["workbench.action.findInFiles"]
+            "before": ["<leader>", "i", "t"],
+            "commands": ["workbench.action.terminal.new"] 
         },
         {
-            "before": ["<leader>", "e"],
-            "commands": ["workbench.view.explorer"] 
+            "before": ["<leader>", "f", "f"],
+            "commands": ["workbench.action.findInFiles"]
         },
         {
             "before": ["<leader>", "h", "a"],
@@ -72,6 +83,22 @@
         {
             "before": ["<leader>", "x"],
             "commands": ["workbench.action.closeActiveEditor"]
+        },
+        {
+            "before": ["<leader>", "a", "x"],
+            "commands": ["workbench.action.closeEditorsInGroup"] 
+        },
+        {
+            "before": ["<leader>", "d"],
+            "commands": ["editor.action.addSelectionToNextFindMatch"]
+        },
+        {
+            "before": ["<leader>", "w", "]"],
+            "commands": ["workbench.action.splitEditorToRightGroup"]
+        },
+        {
+            "before": ["<leader>", "w", "-"],
+            "commands": ["workbench.action.splitEditorDown"]
         },
         {
             "before": ["<leader>", "c", "f"],
@@ -89,16 +116,24 @@
         {
             "before": ["<Ctrl+a>"],
             "commands": ["editor.action.selectAll"]
-        }
+        },
+        {
+            "before": ["<Alt+k>"],
+            "commands": ["editor.action.copyLinesUpAction"]
+        },
+        {
+            "before": ["<Alt+j>"],
+            "commands": ["editor.action.copyLinesDownAction"]
+        },
     ],
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "compact",
     "breadcrumbs.enabled": false,
     "editor.renderControlCharacters": false,
-    "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "workbench.iconTheme": "vscode-icons",
     "workbench.activityBar.location": "hidden",
     "window.zoomLevel": 1,
     "workbench.layoutControl.enabled": false,
+    "editor.fontFamily": "Cascadia Code, 'Courier New', monospace",
 }
