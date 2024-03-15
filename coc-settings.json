@@ -1,0 +1,6 @@
+{
+  "suggest.noselect": true,
+  "diagnostic.virtualText": true, 
+  "diagnostic.virtualTextCurrentLineOnly": false,
+  "pyright.testing.provider": "pytest"
+}
