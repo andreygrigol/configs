@@ -2,7 +2,7 @@ mes */
 
 /* airline default "dark" theme */
 body {
-    --powerline-mode-fg: #00000u0;
+    --powerline-mode-fg: #000000;
     --powerline-normal-bg: #928374;
     --powerline-insert-bg: #83a598;
     --powerline-replace-bg: #cc241d;
