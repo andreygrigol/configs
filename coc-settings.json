@@ -1,6 +1,7 @@
 {
-  "suggest.noselect": true,
-  "diagnostic.virtualText": true, 
-  "diagnostic.virtualTextCurrentLineOnly": false,
-  "pyright.testing.provider": "pytest"
+    "python.linting.ruffEnable": true,
+    "python.formatting.provider": "autopep8",
+    "pyright.testing.provider": "pytest",
+    "diagnostic.checkCurrentLine": true,
+    "suggest.noselect": true
 }
