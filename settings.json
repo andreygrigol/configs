@@ -1,6 +1,8 @@
 {
-  "workbench.colorTheme": "Gruvbox Material Dark",
+  "workbench.colorTheme": "Gruvbox Dark Soft",
   "settingsSync.ignoredSettings": [],
+
+  "vscode_custom_css.imports": ["file:///C:/Users/aribeiro7/Documents/vscode-powerline/powerline.css"],
 
   "vim.leader": "<space>",
   "vim.easymotion": true,
@@ -79,7 +81,7 @@
       "commands": ["workbench.action.activityBarLocation.hide"]
     },
     {
-      "before": ["<leader>", "x"],
+      "before": ["<leader>", "x", "x"],
       "commands": ["workbench.action.closeActiveEditor"]
     },
     {
@@ -130,7 +132,6 @@
   "editor.renderControlCharacters": false,
   "editor.fontLigatures": true,
   "workbench.iconTheme": "gruvbox-material-icon-theme",
-  "workbench.activityBar.location": "hidden",
   "window.zoomLevel": 1,
   "workbench.layoutControl.enabled": false,
   "editor.fontFamily": "JetBrainsMono Nerd Font, 'Courier New', monospace",
@@ -138,19 +139,8 @@
     "wsl.localhost"
   ],
   "editor.lineHeight": 1.25,
-  "editor.fontSize": 14,
-  "vim.statusBarColorControl": true,
-  "vim.statusBarColors.visual": "#fe8019",
-  "vim.statusBarColors.normal": "#282828",
-  "vim.statusBarColors.insert": "#458588",
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#458588",
-    "statusBar.noFolderBackground": "#458588",
-    "statusBar.debuggingBackground": "#458588",
-    "statusBar.foreground": "#ffffff",
-    "statusBar.debuggingForeground": "#ffffff"
-  },
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.stickyScroll.enabled": false,
+  "workbench.activityBar.location": "hidden",
   }
