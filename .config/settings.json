@@ -1,8 +1,5 @@
 {
-  "workbench.colorTheme": "Gruvbox Dark Soft",
   "settingsSync.ignoredSettings": [],
-
-  "vscode_custom_css.imports": ["file:///C:/Users/aribeiro7/Documents/vscode-powerline/powerline.css"],
 
   "vim.leader": "<space>",
   "vim.easymotion": true,
@@ -132,9 +129,8 @@
   "editor.renderControlCharacters": false,
   "editor.fontLigatures": true,
   "workbench.iconTheme": "gruvbox-material-icon-theme",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0.6,
   "workbench.layoutControl.enabled": false,
-  "editor.fontFamily": "JetBrainsMono Nerd Font, 'Courier New', monospace",
   "security.allowedUNCHosts": [
     "wsl.localhost"
   ],
@@ -143,4 +139,9 @@
   "editor.scrollbar.vertical": "hidden",
   "editor.stickyScroll.enabled": false,
   "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "gruvboxMaterial.darkPalette": "original",
+  "editor.fontSize": 15.5,
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "RobotoMono Nerd Font, 'Courier New', monospace",
   }
