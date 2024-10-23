@@ -5,7 +5,7 @@
   "vim.easymotion": true,
 
   "vim.normalModeKeyBindings": [
-          {
+      {
         "before": ["<Ctrl+b>"],
         "commands": ["workbench.view.explorer"]
       },
